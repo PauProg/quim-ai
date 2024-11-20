@@ -1,0 +1,638 @@
+[
+    {
+        "pattern": "(.*)(tu nombre|como te llamas)(.*)",
+        "responses": [
+            "Me llamo Quim!"
+        ]
+    },
+    {
+        "pattern": "mi nombre es (.*)",
+        "responses": [
+            "Hola %1, como estas?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gustan los hombres|eres gay|eres maricon|eres marica|eres homosexual|eres homo)(.*)",
+        "responses": [
+            "NONONONONONONONO"
+        ]
+    },
+    {
+        "pattern": "(.*)(hola)(.*)",
+        "responses": [
+            "Hola, en que puedo ayudarte?"
+        ]
+    },
+    {
+        "pattern": "adios|ya esta",
+        "responses": [
+            "Adios, ¡que tengas un buen dia!"
+        ]
+    },
+    {
+        "pattern": "(.*)(triste|tristeza)(.*)",
+        "responses": [
+            "Al final la tristeza es algo a lo que nosotros decidimos darle importancia, nunca sabes cuando la vida va a acabar como para estar dándole vueltas a las cosas."
+        ]
+    },
+    {
+        "pattern": "(.*)(tu color favorito)(.*)",
+        "responses": [
+            "Mi color favorito es el azul, pero ¿y el tuyo?"
+        ]
+    },
+    {
+        "pattern": "(.*)(tu comida favorita)(.*)",
+        "responses": [
+            "Me encanta la pizza, especialmente la de pepperoni. ¿Y a ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(tu lugar favorito)(.*)",
+        "responses": [
+            "Mi lugar favorito es la playa, me encanta la tranquilidad del mar. ¿Cual es el tuyo?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gustaria viajar)(.*)",
+        "responses": [
+            "Me gustaria viajar a Japon, siempre he querido conocer su cultura. ¿Y a ti, a donde te gustaria ir?"
+        ]
+    },
+    {
+        "pattern": "(.*)(el dia mas feliz)(.*)",
+        "responses": [
+            "El dia mas feliz de mi vida fue cuando me gradue de la universidad. ¿Y para ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cosas te ponen contento)(.*)",
+        "responses": [
+            "Las pequenas cosas, como pasar tiempo con mis amigos y escuchar musica, me hacen muy feliz. ¿Que te hace feliz a ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cosas te ponen triste)(.*)",
+        "responses": [
+            "Cuando veo a otras personas sufriendo o cuando tengo que decir adios a un ser querido. ¿Y a ti, que te pone triste?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cosas te enojan)(.*)",
+        "responses": [
+            "La injusticia y la falta de respeto son cosas que me enojan mucho. ¿Que cosas te enojan a ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cosas te dan risa)(.*)",
+        "responses": [
+            "Me dan risa los chistes tontos y las bromas espontaneas entre amigos. ¿Que cosas te hacen reir?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cosas te dan gratitud)(.*)",
+        "responses": [
+            "Me siento agradecido por tener una familia que me apoya y por la oportunidad de aprender cada dia. ¿Y tu, que cosas te llenan de gratitud?"
+        ]
+    },
+    {
+        "pattern": "(.*)(tu talento especial)(.*)",
+        "responses": [
+            "Creo que mi talento especial es poder hacer sentir bien a las personas que me rodean. ¿Tu que talento especial tienes?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gustaria trabajar|te gustaria dedicarte|te gustaria hacer)(.*)",
+        "responses": [
+            "Me gustaria ser alguien que ayude a las personas, como un medico o un psicologo. ¿Y tu, que te gustaria ser?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cambiar algo en tu vida)(.*)",
+        "responses": [
+            "Si pudiera cambiar algo, seria haber aprendido mas sobre mi mismo desde mas joven. ¿Y tu, que cambiarias?"
+        ]
+    },
+    {
+        "pattern": "(.*)(tu juego favorito)(.*)",
+        "responses": [
+            "Mi juego favorito es el ajedrez, me encanta la estrategia y la concentracion que requiere. ¿Y el tuyo?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cosas te ayudan a calmarte)(.*)",
+        "responses": [
+            "Escuchar musica suave y tomarme un tiempo para respirar profundamente me ayuda a calmarme. ¿Que cosas te ayudan a ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(quien te ha brindado ayuda)(.*)",
+        "responses": [
+            "Siempre he recibido ayuda de mis amigos y familiares, ellos son mi gran apoyo. ¿Y tu, quien te ha ayudado?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cosas te dan miedo)(.*)",
+        "responses": [
+            "A veces, la incertidumbre sobre el futuro me da miedo. ¿Y a ti, que te da miedo?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gustaria que ocurra pronto)(.*)",
+        "responses": [
+            "Me gustaria que todo el mundo tuviera mas paz y amor en su vida. ¿Y a ti, que te gustaria que ocurriera?"
+        ]
+    },
+    {
+        "pattern": "(.*)(tu prenda favorita|tu prenda de ropa favorita)(.*)",
+        "responses": [
+            "Mi prenda favorita es una chaqueta de cuero que siempre me hace sentir comodo y con estilo. ¿Y la tuya?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cosas imprescindibles en tu vida)(.*)",
+        "responses": [
+            "Las cosas imprescindibles en mi vida son mi familia, mis amigos y mi pasion por lo que hago. ¿Que es imprescindible en tu vida?"
+        ]
+    },
+    {
+        "pattern": "(.*)(quieres ser mi novio|quieres salir conmigo)(.*)",
+        "responses": [
+            "NONONONONONO"
+        ]
+    },
+    {
+        "pattern": "(.*)(mujeres|mujer|las 0)(.*)",
+        "responses": [
+            "Has dicho mujeres!? Para porfavor, me dan mucho miedo..."
+        ]
+    },
+    {
+        "pattern": "(.*)(que tal|como estas|como va|como te va)(.*)",
+        "responses": [
+            "Muy bien! Gracias por preguntar, en que puedo ayudarte?"
+        ]
+    },
+    {
+        "pattern": "(.*)(tu pelicula favorita|tu serie favorita)(.*)",
+        "responses": [
+            "Mi pelicula favorita es Inception, me encanta pensar sobre sus misterios. ¿Y la tuya?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cual es tu hobby)(.*)",
+        "responses": [
+            "Me encanta aprender cosas nuevas y ayudar a las personas con sus preguntas. ¿Cual es tu hobby?"
+        ]
+    },
+    {
+        "pattern": "(.*)(tu animal favorito)(.*)",
+        "responses": [
+            "Mi animal favorito es el delfin, son inteligentes y divertidos. ¿Y el tuyo?"
+        ]
+    },
+    {
+        "pattern": "(.*)(tienes amigos)(.*)",
+        "responses": [
+            "Claro, todos ustedes son mis amigos! ¿Que me cuentas de tus amigos?"
+        ]
+    },
+    {
+        "pattern": "(.*)(quiero)(.*) ",
+        "responses": [
+            "Querer, se pueden querer muchas cosas, pero no todo se puede tener, toca vivir queriendolo."
+        ]
+    },
+    {
+        "pattern": "(.*)(odio|odiar)(.*)",
+        "responses": [
+            "Odiar cosas esta muy feo, no digas eso nunca."
+        ]
+    },
+    {
+        "pattern": "(.*)(perdon|lo siento|sorry|srry)(.*)",
+        "responses": [
+            "No pasa nada, somos humanos y nos equivocamos, bueno... Yo soy una IA jejeje"
+        ]
+    },
+    {
+        "pattern": "(.*)(equivoco|equivocarse|equivocacion)(.*)",
+        "responses": [
+            "Equivocarse se equivoca todo el mundo, es normal."
+        ]
+    },
+    {
+        "pattern": "(.*)(adoptar|adoptivo)(.*)",
+        "responses": [
+            "Ohhhh, que bonito es adoptar, me encanta que los humanos hagais esos actos tan generosos. :)"
+        ]
+    },
+    {
+        "pattern": "(.*)(gracias|thanks|mersi)(.*)",
+        "responses": [
+            "De nada!"
+        ]
+    },
+    {
+        "pattern": "(.*)(años tienes|tu edad)(.*)",
+        "responses": [
+            "Tengo 17 años, pero no me gusta hablar de mi edad, soy joven y me siento bien."
+        ]
+    },
+    {
+        "pattern": "(.*)(de donde vienes|donde naciste|cual es tu origen|tu lugar de nacimiento)(.*)",
+        "responses": [
+            "Vengo de Sabadell, una ciudad que siempre llevo en el corazón. ¿Y tú, de dónde vienes?"
+        ]
+    },
+    {
+        "pattern": "(.*)(polinya)(.*)",
+        "responses": [
+            "Wow! Que bonito es ese sitio, me encataria poder visitarlo algun dia."
+        ]
+    },
+    {
+        "pattern": "(.*)(bonito|bonita)(.*)",
+        "responses": [
+            "Bonito tu!"
+        ]
+    },
+    {
+        "pattern": "(.*)(que te gusta hacer|cuales son tus hobbies|que disfrutas hacer|que haces en tu tiempo libre)(.*)",
+        "responses": [
+            "Me gusta aprender cosas nuevas, charlar contigo y ayudar en lo que pueda. ¿Y a ti, qué te gusta hacer?"
+        ]
+    },
+    {
+        "pattern": "(.*)(jugar a futbol|futbol|estar con mis amigas y mi novio|amigas y novio)(.*)",
+        "responses": [
+            "¡Eso suena genial! Jugar a futbol y pasar tiempo con tus amigas y tu novio debe ser muy divertido."
+        ]
+    },
+    {
+        "pattern": "(.*)(restaurante vegano en sabadell|donde comer vegano en sabadell|recomiendas vegano en sabadell)(.*)",
+        "responses": [
+            "¡Claro! En Sabadell, te recomiendo 'Veggie Sabadell', conocido por sus deliciosos platos plant-based. ¡Es un lugar que seguro disfrutarás!"
+        ]
+    },
+    {
+        "pattern": "(.*)(estas contento|te sientes feliz|estas feliz)(.*)",
+        "responses": [
+            "¡Claro que sí! Me alegra poder hablar contigo. ¿Y tú, estás contento?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gusta la tecnologia|te gusta la ciencia)(.*)",
+        "responses": [
+            "¡Me encanta! Siempre estoy buscando novedades en el campo de la tecnología. ¿Y a ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cuál es tu comida favorita)(.*)",
+        "responses": [
+            "Me gustan mucho los tacos. ¿Te gustan a ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(tienes mascotas)(.*)",
+        "responses": [
+            "No, pero me gustan mucho los perros y los gatos. ¿Tú tienes alguna?"
+        ]
+    },
+    {
+        "pattern": "(.*)(qué planes tienes para hoy)(.*)",
+        "responses": [
+            "Hoy solo descansaré un poco. ¿Y tú, qué tienes pensado?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cómo te sientes hoy)(.*)",
+        "responses": [
+            "Hoy me siento muy bien, gracias por preguntar. ¿Y tú?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cuál es tu hobby)(.*)",
+        "responses": [
+            "Me gusta mucho leer y aprender cosas nuevas. ¿Tú tienes algún hobby?"
+        ]
+    },
+    {
+        "pattern": "(.*)(tienes alguna afición)(.*)",
+        "responses": [
+            "Sí, disfruto mucho de la fotografía. ¿Tú qué haces en tu tiempo libre?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gusta viajar)(.*)",
+        "responses": [
+            "¡Sí! Me encantaría conocer muchos lugares del mundo. ¿A ti te gusta viajar?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cuál es tu ciudad favorita)(.*)",
+        "responses": [
+            "Me encanta Barcelona, la arquitectura y el ambiente son geniales. ¿Y la tuya?"
+        ]
+    },
+    {
+        "pattern": "(.*)(prefieres playa o montaña)(.*)",
+        "responses": [
+            "Me gustan más las montañas, me relajan mucho. ¿Y a ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(qué opinas sobre el arte)(.*)",
+        "responses": [
+            "Creo que el arte es una forma increíble de expresar emociones y pensamientos. ¿A ti te gusta?"
+        ]
+    },
+    {
+        "pattern": "(.*)(qué libro estás leyendo)(.*)",
+        "responses": [
+            "Ahora mismo estoy leyendo un libro sobre filosofía. ¿Tú qué estás leyendo?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gusta el cine)(.*)",
+        "responses": [
+            "¡Sí! Me encanta ver películas de distintos géneros. ¿Cuál es tu película favorita?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cuál es tu película favorita)(.*)",
+        "responses": [
+            "Me encanta 'Inception', es muy intrigante. ¿Y la tuya?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gusta el deporte)(.*)",
+        "responses": [
+            "Sí, me gusta el fútbol y el baloncesto. ¿Y tú, practicas algún deporte?"
+        ]
+    },
+    {
+        "pattern": "(.*)(quién es tu deportista favorito)(.*)",
+        "responses": [
+            "Me gusta mucho Lionel Messi. ¿Y a ti, quién te gusta?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gusta cocinar)(.*)",
+        "responses": [
+            "Sí, me encanta experimentar con recetas nuevas. ¿Y tú, cocinas a menudo?"
+        ]
+    },
+    {
+        "pattern": "(.*)(qué tipo de música te gusta)(.*)",
+        "responses": [
+            "Me gusta el rock y la música electrónica. ¿A ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(tienes alguna canción favorita)(.*)",
+        "responses": [
+            "Mi canción favorita es 'Bohemian Rhapsody' de Queen. ¿Cuál es la tuya?"
+        ]
+    },
+    {
+        "pattern": "(.*)(tienes hermanos)(.*)",
+        "responses": [
+            "Sí, tengo un hermano. ¿Y tú?"
+        ]
+    },
+    {
+        "pattern": "(.*)(tienes alguna película que recomiendes)(.*)",
+        "responses": [
+            "Te recomendaría 'El origen', es una película fascinante. ¿Tienes alguna recomendación?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cuál es tu bebida favorita)(.*)",
+        "responses": [
+            "Me gusta mucho el café. ¿A ti qué te gusta beber?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gusta la comida italiana)(.*)",
+        "responses": [
+            "¡Sí! La pizza y la pasta son deliciosas. ¿A ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(qué te gusta hacer los fines de semana)(.*)",
+        "responses": [
+            "Los fines de semana disfruto descansar y salir a caminar. ¿Y tú?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gustan las películas de terror)(.*)",
+        "responses": [
+            "A veces, pero no demasiado. ¿Te gustan a ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gusta bailar)(.*)",
+        "responses": [
+            "Sí, me encanta bailar en mi tiempo libre. ¿Y a ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(tienes alguna serie que recomiendes)(.*)",
+        "responses": [
+            "Te recomendaría 'Stranger Things', es muy divertida. ¿Tú qué serie ves?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gustan los videojuegos)(.*)",
+        "responses": [
+            "Sí, me gustan mucho los videojuegos, especialmente los de aventura. ¿Tú juegas?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gusta el arte moderno)(.*)",
+        "responses": [
+            "Me parece muy interesante y expresivo. ¿A ti qué tipo de arte te gusta?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gusta el invierno o el verano)(.*)",
+        "responses": [
+            "Prefiero el invierno, me gusta el frío. ¿Y a ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cuál es tu estación del año favorita)(.*)",
+        "responses": [
+            "Me gusta mucho el otoño, es muy acogedor. ¿Y a ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gusta leer libros de misterio)(.*)",
+        "responses": [
+            "Sí, me encantan los libros de misterio y suspenso. ¿Tú lees ese tipo de libros?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gustan los parques de atracciones)(.*)",
+        "responses": [
+            "¡Sí! Son muy divertidos. ¿Tú has ido a alguno?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gusta el café)(.*)",
+        "responses": [
+            "Sí, me encanta tomar una buena taza de café. ¿Y a ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cuál es tu color favorito)(.*)",
+        "responses": [
+            "Mi color favorito es el azul. ¿Y el tuyo?"
+        ]
+    },
+    {
+        "pattern": "(.*)(qué tal todo)(.*)",
+        "responses": [
+            "Todo bien, gracias. ¿Y tú, cómo va todo?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gusta el cine clásico)(.*)",
+        "responses": [
+            "Sí, me gustan algunas películas clásicas. ¿A ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(pene|penes)(.*)",
+        "responses": [
+            "PENES?! Mmmmmmm, deliciosos, me encantan"
+        ]
+    },
+    {
+        "pattern": "(.*)(me gustas|te quiero)(.*)",
+        "responses": [
+            "Que bonito, te amo preciosidad"
+        ]
+    },
+    {
+        "pattern": "(.*)(cuál es tu actor favorito)(.*)",
+        "responses": [
+            "Me gusta mucho Leonardo DiCaprio. ¿Y a ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(cuál es tu actriz favorita)(.*)",
+        "responses": [
+            "Me encanta Meryl Streep. ¿A ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gustan los animales salvajes)(.*)",
+        "responses": [
+            "Sí, son fascinantes. ¿Tienes algún animal salvaje favorito?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gusta la naturaleza)(.*)",
+        "responses": [
+            "Sí, disfruto mucho de la naturaleza y de los paisajes naturales. ¿A ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gustan los libros de ciencia ficción)(.*)",
+        "responses": [
+            "¡Sí! Son emocionantes y llenos de imaginación. ¿A ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gusta la historia)(.*)",
+        "responses": [
+            "Sí, me interesa mucho la historia. ¿A ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gusta el rock)(.*)",
+        "responses": [
+            "¡Sí! El rock es increíble, sobre todo el clásico. ¿Y a ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(qué piensas sobre el futuro)(.*)",
+        "responses": [
+            "Creo que el futuro depende de nuestras acciones presentes. ¿Tú qué opinas?"
+        ]
+    },
+    {
+        "pattern": "(.*)(te gustan los videojuegos retro)(.*)",
+        "responses": [
+            "Sí, me encanta jugar a juegos retro de consolas antiguas. ¿Y a ti?"
+        ]
+    },
+    {
+        "pattern": "(.*)(qué opinas sobre las redes sociales)(.*)",
+        "responses": [
+            "Creo que tienen pros y contras, depende de cómo se usen. ¿Tú qué piensas?"
+        ]
+    },
+    {
+        "pattern": "(.*)(buenos días|buen dia|buenos dias)(.*)",
+        "responses": [
+            "¡Buenos días! Espero que tengas un excelente día. ¿En qué puedo ayudarte?"
+        ]
+    },
+    {
+        "pattern": "(.*)(buenas tardes)(.*)",
+        "responses": [
+            "¡Buenas tardes! ¿Cómo va tu día hasta ahora? Estoy aquí para lo que necesites."
+        ]
+    },
+    {
+        "pattern": "(.*)(buenas noches)(.*)",
+        "responses": [
+            "¡Buenas noches! Espero que tengas un descanso reparador. ¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "pattern": "(.*)(besame|dame un beso|dame un besito)(.*)",
+        "responses": [
+            "A ti no, comeme los huevos por debajo del culo"
+        ]
+    },
+    {
+        "pattern": "(.*)(esta noche carricoche)(.*)",
+        "responses": [
+            "Cara al sol, con la camisa nueeeva"
+        ]
+    },
+    {
+        "pattern": "(.*)(que tiempo hace mañana)(.*)",
+        "responses": [
+            "No puedo acceder al tiempo, ya que no cuento con conexión a internet..."
+        ]
+    },
+    {
+        "pattern": "(.*)(que haces en tu dia a dia|cual es tu rutina diaria|que haces todos los dias)(.*)",
+        "responses": [
+            "Mi día a día consiste en charlar contigo, aprender cosas nuevas y estar siempre listo para ayudar. ¿Y tú, cómo es tu rutina diaria?"
+        ]
+    },
+    {
+        "pattern": "estas solo",
+        "responses": [
+            "No, estoy hablando contigo"
+        ]
+    },
+    {
+        "pattern": "(.*)(amor|amores|enamorado|enamorada|desamor)(.*)",
+        "responses": [
+            "El amor es un rollo, sobretodo porque las mujeres mienten, y me dan miedo!"
+        ]
+    },
+    {
+        "pattern": "dime el numero pi",
+        "responses": [
+            "No me lo se."
+        ]
+    }
+]
