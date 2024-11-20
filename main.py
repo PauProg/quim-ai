@@ -13,7 +13,7 @@ wikipedia.set_lang("es")
 patterns_file = "corrected_patterns_v2.json"
 
 # Clave de la API de OpenWeatherMap
-API_KEY = "9265687a3ef637dcab7b521c58b1e939"  # Reemplaza con tu clave
+API_KEY = ""  # Reemplaza con tu clave
 
 # Configurar el motor de texto a voz
 engine = pyttsx3.init()
