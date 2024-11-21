@@ -1,6 +1,6 @@
 [
     {
-        "pattern": "(.*)(tú nombre|cómo te llamás)(.*)",
+        "pattern": "(.*)(tu nombre|cómo te llamás)(.*)",
         "responses": [
             "Me llamo Quim!"
         ]
@@ -12,7 +12,7 @@
         ]
     },
     {
-        "pattern": "(.*)(te gustan los hombres|eres gay|eres maricon|eres marica|eres homosexual|eres homo)(.*)",
+        "pattern": "(.*)(te gustan los hombres|eres gay|eres maricon|eres marica|eres homosexual|eres homo|gay|maricón|marica|homosexual|homo)(.*)",
         "responses": [
             "NONONONONONONONO"
         ]
@@ -36,21 +36,21 @@
         ]
     },
     {
-        "pattern": "(.*)(tú color favorito)(.*)",
+        "pattern": "(.*)(tu color favorito)(.*)",
         "responses": [
-            "Mi color favorito es el azul, pero ¿y el túyo?"
+            "Mi color favorito es el azul, pero ¿y el tuyo?"
         ]
     },
     {
-        "pattern": "(.*)(tú comída favorita)(.*)",
+        "pattern": "(.*)(tu comida favorita)(.*)",
         "responses": [
             "Me encanta la pizza, especialmente la de pepperoni. ¿Y a ti?"
         ]
     },
     {
-        "pattern": "(.*)(tú lugar favorito)(.*)",
+        "pattern": "(.*)(tu lugar favorito)(.*)",
         "responses": [
-            "Mi lugar favorito es la playa, me encanta la tranquilidad del mar. ¿Cual es el túyo?"
+            "Mi lugar favorito es la playa, me encanta la tranquilidad del mar. ¿Cúal es el túyo?"
         ]
     },
     {
