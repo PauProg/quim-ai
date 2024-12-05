@@ -12,7 +12,7 @@
         ]
     },
     {
-        "pattern": "(.*)(dime qué te puedo preguntar|qué cosas puedo preguntarte|que puedo preguntarte|que puedo decirte|dime que cosas sabes responder|dime sobre que puedo hablar contigo)(.*)",
+        "pattern": "(.*)(que te puedo preguntar|que cosas puedo preguntarte|que puedo preguntarte|que puedo decirte|dime que cosas sabes responder|dime sobre que puedo hablar contigo)(.*)",
         "responses": [
             "Puedes preguntarme sobre mis gustos, juegos que puedo ofrecerte, el clima, o incluso jugar a algo divertido como piedra, papel o tijeras. ¡Inténtalo!"
         ]

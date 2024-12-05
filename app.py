@@ -3,6 +3,10 @@ import json
 import re
 import random
 import requests
+import wikipedia
+
+# Configurar Wikipedia para usar el idioma español
+wikipedia.set_lang("es")
 
 # Configurar Flask
 app = Flask(__name__)
@@ -37,6 +41,35 @@ def get_weather(city="Barcelona"):
     except requests.exceptions.RequestException:
         return "Hubo un problema al conectarme al servicio del clima. Inténtalo más tarde."
 
+# Juego: Piedra, papel o tijeras
+def play_rock_paper_scissors(user_choice):
+    choices = ["piedra", "papel", "tijeras"]
+    bot_choice = random.choice(choices)
+
+    if user_choice == bot_choice:
+        return f"¡Empate! Ambos eligieron {bot_choice}."
+    elif (user_choice == "piedra" and bot_choice == "tijeras") or \
+         (user_choice == "papel" and bot_choice == "piedra") or \
+         (user_choice == "tijeras" and bot_choice == "papel"):
+        return f"¡Ganaste! Tú elegiste {user_choice} y yo elegí {bot_choice}."
+    else:
+        return f"¡Perdiste! Tú elegiste {user_choice} y yo elegí {bot_choice}."
+
+# Función para buscar en Wikipedia
+def search_wikipedia(query):
+    try:
+        # Realiza la búsqueda en Wikipedia
+        result = wikipedia.summary(query, sentences=2)
+        return result
+    except wikipedia.exceptions.DisambiguationError as e:
+        return f"Hay varias opciones para '{query}'. ¿Podrías ser más específico?"
+    except wikipedia.exceptions.HTTPTimeoutError:
+        return "Hubo un problema de conexión. Intenta más tarde."
+    except wikipedia.exceptions.RedirectError:
+        return "No se pudo encontrar la página solicitada."
+    except wikipedia.exceptions.PageError:
+        return "No se encontró la página en Wikipedia."
+
 # Responder a las entradas del usuario basadas en patrones
 def respond_to_patterns(user_input, patterns):
     for pattern, responses in patterns:
@@ -66,6 +99,16 @@ def chat():
         if match:
             city = match.group(1)
         response = get_weather(city)
+    elif "piedra" in user_input or "papel" in user_input or "tijeras" in user_input:
+        response = play_rock_paper_scissors(user_input)
+    elif "busca en wikipedia" in user_input:
+        # Extraemos el término a buscar en Wikipedia
+        match = re.search(r"busca en wikipedia (.+)", user_input)
+        if match:
+            query = match.group(1)
+            response = search_wikipedia(query)
+        else:
+            response = "¿Qué te gustaría que busque en Wikipedia?"
     else:
         response = respond_to_patterns(user_input, patterns)
 

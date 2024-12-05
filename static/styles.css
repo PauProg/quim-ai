@@ -24,6 +24,11 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 #chatbox {
     height: 300px;
     overflow-y: auto;
@@ -36,13 +41,13 @@ body {
 .user-message {
     text-align: right;
     color: #333;
-    margin: 5px 0;
+    margin: 5px;
 }
 
 .bot-message {
     text-align: left;
     color: #007bff;
-    margin: 5px 0;
+    margin: 5px;
 }
 
 #userInput {
