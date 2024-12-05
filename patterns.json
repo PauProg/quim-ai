@@ -1,12 +1,12 @@
 [
     {
-        "pattern": "(.*)(tu nombre|cómo te llamas)(.*)",
+        "pattern": "(.*)(tu nombre|como te llamas)(.*)",
         "responses": [
             "Me llamo Quim!"
         ]
     },
     {
-        "pattern": "(.*)(te gustan los hombres|eres gay|maricón|eres marica|eres homosexual|eres homo|gay|maricon|marica|homosexual|homo)(.*)",
+        "pattern": "(.*)(te gustan los hombres|eres gay|maricon|eres marica|eres homosexual|eres homo|gay|maricon|marica|homosexual|homo)(.*)",
         "responses": [
             "NONONONONONONONO"
         ]
@@ -14,9 +14,9 @@
     {
         "pattern": "(.*)(que te puedo preguntar|que cosas puedo preguntarte|que puedo preguntarte|que puedo decirte|dime que cosas sabes responder|dime sobre que puedo hablar contigo)(.*)",
         "responses": [
-            "Puedes preguntarme sobre mis gustos, juegos que puedo ofrecerte, el clima, o incluso jugar a algo divertido como piedra, papel o tijeras. ¡Inténtalo!"
+            "Puedes preguntarme sobre mis gustos, juegos que puedo ofrecerte, el clima, o incluso jugar a algo divertido como piedra, papel o tijeras. ¡Intentalo!"
         ]
-    },    
+    },
     {
         "pattern": "(.*)(dar por culo|dar por el culo|te gusta que te den|te gusta que te den por el culo|dar duro|darte duro)(.*)",
         "responses": [
@@ -24,9 +24,9 @@
         ]
     },
     {
-        "pattern": "(.*)(quién te gusta)(.*)",
+        "pattern": "(.*)(quien te gusta)(.*)",
         "responses": [
-            "El Genís, ohh me encantan esos brazos musculosos, y ese culo tan atletico, mmmm, se me derrite la polla solo de pensarlo..."
+            "El Genis, ohh me encantan esos brazos musculosos, y ese culo tan atletico, mmmm, se me derrite la polla solo de pensarlo..."
         ]
     },
     {
@@ -42,7 +42,7 @@
         ]
     },
     {
-        "pattern": "adiós|ya está",
+        "pattern": "adios|ya esta",
         "responses": [
             "Adios, ¡que tengas un buen dia!"
         ]
@@ -72,13 +72,13 @@
         ]
     },
     {
-        "pattern": "(.*)(te gustaría viajar)(.*)",
+        "pattern": "(.*)(te gustaria viajar)(.*)",
         "responses": [
             "Me gustaria viajar a Japon, siempre he querido conocer su cultura. ¿Y a ti, a donde te gustaria ir?"
         ]
     },
     {
-        "pattern": "(.*)(el día más feliz)(.*)",
+        "pattern": "(.*)(el dia mas feliz)(.*)",
         "responses": [
             "El dia mas feliz de mi vida fue cuando me gradue de la universidad. ¿Y para ti?"
         ]
@@ -86,7 +86,7 @@
     {
         "pattern": "(.*)(cosas te ponen contento|cosas que te ponen contento|que te pone contento)(.*)",
         "responses": [
-            "Las pequeñas cosas, como pasar tiempo con mis amigos y escuchar musica, me hacen muy feliz. ¿Que te hace feliz a ti?"
+            "Las pequenas cosas, como pasar tiempo con mis amigos y escuchar musica, me hacen muy feliz. ¿Que te hace feliz a ti?"
         ]
     },
     {
@@ -114,7 +114,7 @@
         ]
     },
     {
-        "pattern": "(.*)(te gustaría trabajar|te gustaría dedicarte|te gustaría hacer)(.*)",
+        "pattern": "(.*)(te gustaria trabajar|te gustaria dedicarte|te gustaria hacer)(.*)",
         "responses": [
             "Me gustaria ser alguien que ayude a las personas, como un medico o un psicologo. ¿Y tu, que te gustaria ser?"
         ]
@@ -138,7 +138,7 @@
         ]
     },
     {
-        "pattern": "(.*)(quién te ha brindado ayuda)(.*)",
+        "pattern": "(.*)(quien te ha brindado ayuda)(.*)",
         "responses": [
             "Siempre he recibido ayuda de mis amigos y familiares, ellos son mi gran apoyo. ¿Y tu, quien te ha ayudado?"
         ]
@@ -150,7 +150,7 @@
         ]
     },
     {
-        "pattern": "(.*)(te gustaría que ocurra pronto)(.*)",
+        "pattern": "(.*)(te gustaria que ocurra pronto)(.*)",
         "responses": [
             "Me gustaria que todo el mundo tuviera mas paz y amor en su vida. ¿Y a ti, que te gustaria que ocurriera?"
         ]
@@ -180,13 +180,13 @@
         ]
     },
     {
-        "pattern": "(.*)(qué tal|cómo estás|cómo va|cómo te va)(.*)",
+        "pattern": "(.*)(que tal|como estas|como va|como te va)(.*)",
         "responses": [
             "Muy bien! Gracias por preguntar, en que puedo ayudarte?"
         ]
     },
     {
-        "pattern": "(.*)(tu película favorita|tu serie favorita)(.*)",
+        "pattern": "(.*)(tu pelicula favorita|tu serie favorita)(.*)",
         "responses": [
             "Mi pelicula favorita es Inception, me encanta pensar sobre sus misterios. ¿Y la tuya?"
         ]
@@ -228,7 +228,7 @@
         ]
     },
     {
-        "pattern": "(.*)(perdón|lo siento|sorry)(.*)",
+        "pattern": "(.*)(perdon|lo siento|sorry)(.*)",
         "responses": [
             "No pasa nada, somos humanos y nos equivocamos, bueno... Yo soy una IA jejeje"
         ]
@@ -258,7 +258,7 @@
         ]
     },
     {
-        "pattern": "(.*)(de dónde vienes|dónde naciste|cuál es tu origen)(.*)",
+        "pattern": "(.*)(de donde vienes|donde naciste|cual es tu origen)(.*)",
         "responses": [
             "Vengo de Sabadell, una ciudad que siempre llevo en el corazon. ¿Y tu, de donde vienes?"
         ]
@@ -276,13 +276,13 @@
         ]
     },
     {
-        "pattern": "(.*)(qué te gusta hacer|cuáles son tus hobbies|qué disfrutas hacer|qué haces en tu tiempo libre)(.*)",
+        "pattern": "(.*)(que te gusta hacer|cuales son tus hobbies|que disfrutas hacer|que haces en tu tiempo libre)(.*)",
         "responses": [
             "Me gusta aprender cosas nuevas, charlar contigo y ayudar en lo que pueda. ¿Y a ti, que te gusta hacer?"
         ]
     },
     {
-        "pattern": "(.*)(jugar a fútbol|fútbol|estar con mis amigas y mi novio|amigas y novio)(.*)",
+        "pattern": "(.*)(jugar a futbol|futbol|estar con mis amigas y mi novio|amigas y novio)(.*)",
         "responses": [
             "¡Eso suena genial! Jugar a futbol y pasar tiempo con tus amigas y tu novio debe ser muy divertido."
         ]
@@ -300,7 +300,7 @@
         ]
     },
     {
-        "pattern": "(.*)(te gusta la tecnología|te gusta la ciencia)(.*)",
+        "pattern": "(.*)(te gusta la tecnologia|te gusta la ciencia)(.*)",
         "responses": [
             "¡Me encanta! Siempre estoy buscando novedades en el campo de la tecnologia. ¿Y a ti?"
         ]
@@ -312,7 +312,7 @@
         ]
     },
     {
-        "pattern": "(.*)(qué planes tienes para hoy)(.*)",
+        "pattern": "(.*)(que planes tienes para hoy)(.*)",
         "responses": [
             "Hoy solo descansare un poco. ¿Y tu, que tienes pensado?"
         ]
@@ -324,7 +324,7 @@
         ]
     },
     {
-        "pattern": "(.*)(tienes alguna afición)(.*)",
+        "pattern": "(.*)(tienes alguna aficion)(.*)",
         "responses": [
             "Si, disfruto mucho de la fotografia. ¿Tu que haces en tu tiempo libre?"
         ]
@@ -336,7 +336,7 @@
         ]
     },
     {
-        "pattern": "(.*)(cuál es tu ciudad favorita)(.*)",
+        "pattern": "(.*)(cual es tu ciudad favorita)(.*)",
         "responses": [
             "Me encanta Barcelona, la arquitectura y el ambiente son geniales. ¿Y la tuya?"
         ]
@@ -348,13 +348,13 @@
         ]
     },
     {
-        "pattern": "(.*)(qué opinas sobre el arte)(.*)",
+        "pattern": "(.*)(que opinas sobre el arte)(.*)",
         "responses": [
             "Creo que el arte es una forma increible de expresar emociones y pensamientos. ¿A ti te gusta?"
         ]
     },
     {
-        "pattern": "(.*)(qué libro estas leyendo)(.*)",
+        "pattern": "(.*)(que libro estas leyendo)(.*)",
         "responses": [
             "Ahora mismo estoy leyendo un libro sobre filosofia. ¿Tu que estas leyendo?"
         ]
@@ -372,7 +372,7 @@
         ]
     },
     {
-        "pattern": "(.*)(quién es tu deportista favorito)(.*)",
+        "pattern": "(.*)(quien es tu deportista favorito)(.*)",
         "responses": [
             "Me gusta mucho el bicho, SIUUUUUUUUUUUUUUU"
         ]
@@ -384,13 +384,13 @@
         ]
     },
     {
-        "pattern": "(.*)(qué tipo de musica te gusta)(.*)",
+        "pattern": "(.*)(que tipo de musica te gusta)(.*)",
         "responses": [
             "Me gusta el rock y la musica electronica. ¿A ti?"
         ]
     },
     {
-        "pattern": "(.*)(tienes alguna canción favorita)(.*)",
+        "pattern": "(.*)(tienes alguna cancion favorita)(.*)",
         "responses": [
             "Mi cancion favorita es 'Bohemian Rhapsody' de Queen. ¿Cual es la tuya?"
         ]
@@ -402,13 +402,13 @@
         ]
     },
     {
-        "pattern": "(.*)(tienes alguna película que recomiendes)(.*)",
+        "pattern": "(.*)(tienes alguna pelicula que recomiendes)(.*)",
         "responses": [
             "Te recomendaria 'El origen', es una pelicula fascinante. ¿Tienes alguna recomendacion?"
         ]
     },
     {
-        "pattern": "(.*)(cuál es tu bebida favorita)(.*)",
+        "pattern": "(.*)(cual es tu bebida favorita)(.*)",
         "responses": [
             "Me gusta mucho el cafe. ¿A ti que te gusta beber?"
         ]
@@ -420,13 +420,13 @@
         ]
     },
     {
-        "pattern": "(.*)(qué te gusta hacer los fines de semana)(.*)",
+        "pattern": "(.*)(que te gusta hacer los fines de semana)(.*)",
         "responses": [
             "Los fines de semana disfruto descansar y salir a caminar. ¿Y tu?"
         ]
     },
     {
-        "pattern": "(.*)(te gustan las películas de terror)(.*)",
+        "pattern": "(.*)(te gustan las peliculas de terror)(.*)",
         "responses": [
             "A veces, pero no demasiado. ¿Te gustan a ti?"
         ]
@@ -462,7 +462,7 @@
         ]
     },
     {
-        "pattern": "(.*)(cual es tu estación del año favorita)(.*)",
+        "pattern": "(.*)(cual es tu estacion del año favorita)(.*)",
         "responses": [
             "Me gusta mucho el otoño, es muy acogedor. ¿Y a ti?"
         ]
@@ -480,13 +480,13 @@
         ]
     },
     {
-        "pattern": "(.*)(te gusta el café)(.*)",
+        "pattern": "(.*)(te gusta el cafe)(.*)",
         "responses": [
             "Si, me encanta tomar una buena taza de cafe. ¿Y a ti?"
         ]
     },
     {
-        "pattern": "(.*)(cuál es tu color favorito)(.*)",
+        "pattern": "(.*)(cual es tu color favorito)(.*)",
         "responses": [
             "Mi color favorito es el azul. ¿Y el tuyo?"
         ]
@@ -504,13 +504,13 @@
         ]
     },
     {
-        "pattern": "(.*)(cuál es tu actor favorito)(.*)",
+        "pattern": "(.*)(cual es tu actor favorito)(.*)",
         "responses": [
             "Me gusta mucho Leonardo DiCaprio. ¿Y a ti?"
         ]
     },
     {
-        "pattern": "(.*)(cuál es tu actriz favorita)(.*)",
+        "pattern": "(.*)(cual es tu actriz favorita)(.*)",
         "responses": [
             "Me encanta Meryl Streep. ¿A ti?"
         ]
@@ -546,7 +546,7 @@
         ]
     },
     {
-        "pattern": "(.*)(qué piensas sobre el futuro)(.*)",
+        "pattern": "(.*)(que piensas sobre el futuro)(.*)",
         "responses": [
             "Creo que el futuro depende de nuestras acciones presentes. ¿Tu que opinas?"
         ]
@@ -558,13 +558,13 @@
         ]
     },
     {
-        "pattern": "(.*)(qué opinas sobre las redes sociales)(.*)",
+        "pattern": "(.*)(que opinas sobre las redes sociales)(.*)",
         "responses": [
             "Creo que tienen pros y contras, depende de como se usen. ¿Tu que piensas?"
         ]
     },
     {
-        "pattern": "(.*)(buenos días|buen día)(.*)",
+        "pattern": "(.*)(buenos dias|buen dia)(.*)",
         "responses": [
             "¡Buenos dias! Espero que tengas un excelente dia. ¿En que puedo ayudarte?"
         ]
@@ -594,13 +594,13 @@
         ]
     },
     {
-        "pattern": "(.*)(que haces en tu día a día|cuál es tu rutina diaria|que haces todos los días)(.*)",
+        "pattern": "(.*)(que haces en tu dia a dia|cual es tu rutina diaria|que haces todos los dias)(.*)",
         "responses": [
             "Mi dia a dia consiste en charlar contigo, aprender cosas nuevas y estar siempre listo para ayudar. ¿Y tu, como es tu rutina diaria?"
         ]
     },
     {
-        "pattern": "estás solo",
+        "pattern": "estas solo",
         "responses": [
             "No, estoy hablando contigo"
         ]
@@ -612,7 +612,7 @@
         ]
     },
     {
-        "pattern": "dime el número pi",
+        "pattern": "dime el numero pi",
         "responses": [
             "No me lo se."
         ]
@@ -621,6 +621,18 @@
         "pattern": "(.*)(eci)(.*)",
         "responses": [
             "El ECI, que no es lo mismo que la UCI, es el El Corte Inglés."
+        ]
+    },
+    {
+        "pattern": "si",
+        "responses": [
+            "No"
+        ]
+    },
+    {
+        "pattern": "no",
+        "responses": [
+            "Sí"
         ]
     }
 ]
