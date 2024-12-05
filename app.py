@@ -1,9 +1,10 @@
-from flask import Flask, render_template, request, jsonify
-import json
-import re
-import random
-import requests
-import wikipedia
+# Importar librerias
+from flask import Flask, render_template, request, jsonify # Importar Flask, render_template, request y jsonify
+import json # Importar lectura de archivos json
+import re # Importar expresiones regulares
+import random # Importar random para elecciones aleatorias
+import requests # Importar requests para hacer peticiones HTTP
+import wikipedia # Importar wikipedia para busqueda en wikipedia
 
 # Configurar Wikipedia para usar el idioma español
 wikipedia.set_lang("es")
@@ -17,7 +18,7 @@ patterns_file = "patterns.json"
 # Clave de la API de OpenWeatherMap
 API_KEY = "9265687a3ef637dcab7b521c58b1e939"
 
-# Cargar patrones desde el archivo
+# Crear funcion para cargar patrones desde el archivo
 def load_patterns():
     try:
         with open(patterns_file, "r", encoding="utf-8") as file:
@@ -27,17 +28,17 @@ def load_patterns():
         return []
 
 # Función para consultar el clima usando OpenWeatherMap
-def get_weather(city="Barcelona"):
-    url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric&lang=es"
+def get_weather(city="Barcelona"): # Por defecto, la ciudad es Barcelona
+    url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric&lang=es" # URL de la API de OpenWeatherMap
     try:
-        response = requests.get(url)
+        response = requests.get(url) # Realizar la petición HTTP
         if response.status_code == 200:
-            data = response.json()
-            temp = data["main"]["temp"]
+            data = response.json() # Convertir la respuesta a JSON
+            temp = data["main"]["temp"] 
             description = data["weather"][0]["description"]
-            return f"En {city}, ahora hace {temp}°C y el clima está {description}."
+            return f"En {city}, ahora hace {temp}°C y el clima está {description}." # Mensaje con la temperatura y descripción del clima 
         else:
-            return "Lo siento, no pude obtener el clima en este momento. ¿Puedes intentarlo más tarde?"
+            return "Lo siento, no pude obtener el clima en este momento. ¿Puedes intentarlo más tarde?" # Mensaje de error
     except requests.exceptions.RequestException:
         return "Hubo un problema al conectarme al servicio del clima. Inténtalo más tarde."
 
@@ -49,8 +50,8 @@ def play_rock_paper_scissors(user_choice):
     if user_choice == bot_choice:
         return f"¡Empate! Ambos eligieron {bot_choice}."
     elif (user_choice == "piedra" and bot_choice == "tijeras") or \
-         (user_choice == "papel" and bot_choice == "piedra") or \
-         (user_choice == "tijeras" and bot_choice == "papel"):
+        (user_choice == "papel" and bot_choice == "piedra") or \
+        (user_choice == "tijeras" and bot_choice == "papel"):
         return f"¡Ganaste! Tú elegiste {user_choice} y yo elegí {bot_choice}."
     else:
         return f"¡Perdiste! Tú elegiste {user_choice} y yo elegí {bot_choice}."
