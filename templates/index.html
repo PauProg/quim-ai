@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Quim</title>
+    <link rel="stylesheet" href="/static/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <h1>Chatbot Quim</h1>
+        <div id="chatbox"></div>
+        <input type="text" id="userInput" placeholder="Escribe tu mensaje aquí..." />
+        <button id="sendButton">Enviar</button>
+    </div>
+
+    <script>
+        const chatbox = document.getElementById("chatbox");
+        const userInput = document.getElementById("userInput");
+        const sendButton = document.getElementById("sendButton");
+
+        sendButton.addEventListener("click", () => {
+            const message = userInput.value.trim();
+            if (!message) return;
+
+            // Mostrar mensaje del usuario
+            chatbox.innerHTML += `<div class="user-message">${message}</div>`;
+            userInput.value = "";
+
+            // Enviar al servidor
+            fetch("/chat", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ message: message })
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Mostrar respuesta del bot
+                chatbox.innerHTML += `<div class="bot-message">${data.response}</div>`;
+                chatbox.scrollTop = chatbox.scrollHeight;
+            });
+        });
+    </script>
+</body>
+</html>
