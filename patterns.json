@@ -1,12 +1,12 @@
 [
     {
-        "pattern": "(.*)(tu nombre|cómo te llamas)(.*)",
+        "pattern": "(.*)(tu nombre|como te llamas)(.*)",
         "responses": [
             "Me llamo Quim!"
         ]
     },
     {
-        "pattern": "(.*)(te gustan los hombres|eres gay|maricón|eres marica|eres homosexual|eres homo|gay|maricon|marica|homosexual|homo)(.*)",
+        "pattern": "(.*)(te gustan los hombres|eres gay|maricon|eres marica|eres homosexual|eres homo|gay|maricon|marica|homosexual|homo)(.*)",
         "responses": [
             "NONONONONONONONO"
         ]
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "pattern": "(.*)(quién te gusta)(.*)",
+        "pattern": "(.*)(quien te gusta)(.*)",
         "responses": [
             "El Genís, ohh me encantan esos brazos musculosos, y ese culo tan atletico, mmmm, se me derrite la polla solo de pensarlo..."
         ]
@@ -42,7 +42,7 @@
         ]
     },
     {
-        "pattern": "adiós|ya está",
+        "pattern": "adios|ya esta",
         "responses": [
             "Adios, ¡que tengas un buen dia!"
         ]
@@ -72,13 +72,13 @@
         ]
     },
     {
-        "pattern": "(.*)(te gustaría viajar)(.*)",
+        "pattern": "(.*)(te gustaria viajar)(.*)",
         "responses": [
             "Me gustaria viajar a Japon, siempre he querido conocer su cultura. ¿Y a ti, a donde te gustaria ir?"
         ]
     },
     {
-        "pattern": "(.*)(el día más feliz)(.*)",
+        "pattern": "(.*)(el dia mas feliz)(.*)",
         "responses": [
             "El dia mas feliz de mi vida fue cuando me gradue de la universidad. ¿Y para ti?"
         ]
