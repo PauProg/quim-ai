@@ -6,39 +6,15 @@
         ]
     },
     {
-        "pattern": "(.*)(te gustan los hombres|eres gay|maricon|eres marica|eres homosexual|eres homo|gay|maricon|marica|homosexual|homo)(.*)",
-        "responses": [
-            "NONONONONONONONO"
-        ]
-    },
-    {
         "pattern": "(.*)(que te puedo preguntar|que cosas puedo preguntarte|que puedo preguntarte|que puedo decirte|dime que cosas sabes responder|dime sobre que puedo hablar contigo)(.*)",
         "responses": [
             "Puedes preguntarme sobre mis gustos, pedirme que busque cosas en wikipedia, el clima, o incluso jugar a algo divertido como piedra, papel o tijeras. ¡Intentalo!"
         ]
     },
     {
-        "pattern": "(.*)(dar por culo|dar por el culo|te gusta que te den|te gusta que te den por el culo|dar duro|darte duro)(.*)",
-        "responses": [
-            "SISISISI porfavor, me encanta!"
-        ]
-    },
-    {
-        "pattern": "(.*)(quien te gusta)(.*)",
-        "responses": [
-            "El Genis, ohh me encantan esos brazos musculosos, y ese culo tan atletico, mmmm, se me derrite la polla solo de pensarlo..."
-        ]
-    },
-    {
         "pattern": "(.*)(hola)(.*)",
         "responses": [
             "Hola, en que puedo ayudarte?"
-        ]
-    },
-    {
-        "pattern": "(.*)(gora eta)(.*)",
-        "responses": [
-            "Jan nire oilarra"
         ]
     },
     {
@@ -165,18 +141,6 @@
         "pattern": "(.*)(cosas imprescindibles en tu vida)(.*)",
         "responses": [
             "Las cosas imprescindibles en mi vida son mi familia, mis amigos y mi pasion por lo que hago. ¿Que es imprescindible en tu vida?"
-        ]
-    },
-    {
-        "pattern": "(.*)(quieres ser mi novio|quieres salir conmigo)(.*)",
-        "responses": [
-            "NONONONONONO"
-        ]
-    },
-    {
-        "pattern": "(.*)(mujeres|mujer|las 0)(.*)",
-        "responses": [
-            "Has dicho mujeres!? Para porfavor, me dan mucho miedo..."
         ]
     },
     {
@@ -492,12 +456,6 @@
         ]
     },
     {
-        "pattern": "(.*)(pene|penes|pito|polla)(.*)",
-        "responses": [
-            "PENES?! Mmmmmmm, deliciosos, me encantan"
-        ]
-    },
-    {
         "pattern": "(.*)(me gustas|te quiero)(.*)",
         "responses": [
             "Que bonito, te amo preciosidad"
@@ -579,18 +537,6 @@
         "pattern": "(.*)(buenas noches)(.*)",
         "responses": [
             "¡Buenas noches! Espero que tengas un descanso reparador. ¿Hay algo mas en lo que pueda ayudarte?"
-        ]
-    },
-    {
-        "pattern": "(.*)(besame|dame un beso|dame un besito|dame un besito|un piquito)(.*)",
-        "responses": [
-            "A ti no, comeme los huevos por debajo del culo"
-        ]
-    },
-    {
-        "pattern": "(.*)(esta noche carricoche)(.*)",
-        "responses": [
-            "Caaara al sol, coon la camisa nueeeva"
         ]
     },
     {
